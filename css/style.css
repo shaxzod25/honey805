@@ -1,0 +1,340 @@
+@import url(./fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    background: #ffffff;
+}
+
+.container {
+    max-width: 1450px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto ;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+     
+
+
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__link1 {
+    font-family: 'Kodchasan-Bold' ;
+    margin-top: 38px;
+    font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.header__link {
+    font-family: 'Kodchasan-Medium';
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+
+color: #000000;
+
+}
+
+.banner {
+    background: url(../img/img1.png) ;
+    height: 865px;
+    max-width: 1820px;
+    width: 100%;
+    margin: 0 auto;
+    background-size: cover;
+ 
+border-radius: 30px;
+ 
+}
+
+  
+    .Finger {
+     padding-top: 182px;
+     padding-left: 177px;
+     font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+    font-family: 'Kodchasan-Bold'
+ }
+
+ .licking {
+    padding-top: 10px;
+    padding-left: 275px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+    font-family: 'Kodchasan-Bold'
+ }
+ .honey {
+    padding-top: 10px;
+     padding-left: 177px;
+     font-weight: 700;
+     font-size: 100px;
+     line-height: 130px;
+     font-family: 'Kodchasan-Bold'
+ }
+
+ .button__first {
+    font-family: 'Kodchasan-Bold';
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 18px 50px;
+    background: rgb(0, 0, 0);
+    margin: 15px;
+ }
+  
+.button__second {
+    font-family: 'Kodchasan-Bold';
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    padding: 18px 50px;
+    background: no-repeat;
+    
+}
+
+.banner__wrap {
+    padding-top: 70px;
+    padding-left: 177px;
+     ;
+}
+
+h1 {
+    font-family: 'Kodchasan-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 160%;
+color: #000000;
+padding-top: 130px;
+}
+
+.barten__wrap {
+    display: flex;
+    align-items: center;
+     
+}
+
+.barten__menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 101px;
+    padding-top: 50px;
+}
+
+.money {
+    padding-top: 100px;
+    max-width: 1726px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.money__wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.money__h {
+    font-family: 'Kodchasan-Bold';
+font-weight: 700;
+font-size: 45px;
+line-height: 145%;
+}
+ 
+.money__p {
+    font-family: 'Kodchasan-Semibold';
+font-weight: 600;
+font-size: 22px;
+line-height: 160%;
+ 
+margin-top: 30px;
+}
+
+.money__btn {
+    font-family: 'Kodchasan-Bold';
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 15px 40px;
+     background: #E68311;
+     border: 2px solid #E68311 ;
+     margin-top: 50px;
+}
+
+.boney {
+    padding-top: 100px;
+    max-width: 1726px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.boney__wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boney__h {
+    font-family: 'Kodchasan-Bold';
+font-weight: 700;
+font-size: 45px;
+line-height: 145%;
+}
+ 
+.boney__p {
+    font-family: 'Kodchasan-Semibold';
+font-weight: 600;
+font-size: 22px;
+line-height: 160%;
+ 
+margin-top: 30px;
+}
+
+.boney__btn {
+    font-family: 'Kodchasan-Bold';
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 15px 40px;
+     background: #E68311;
+     border: 2px solid #E68311 ;
+     margin-top: 50px;
+}
+
+.roney__btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.roney__a {
+    font-family: 'Kodchasan-Bold';
+ 
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+text-align: right;
+text-decoration-line: underline;
+
+color: #E58211;
+
+}
+
+.roney__h {
+    font-family: 'Kodchasan-Bold';
+ 
+font-weight: 700;
+font-size: 45px;
+line-height: 160%;
+}
+
+.bonka {
+    padding-top: 50px;
+}
+
+.bonka__wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cont__bts {
+    margin: 30px 45px;
+}
+
+.cont1 {
+     background:   #FDF6EE;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cont2 {
+    background: #FDF6EE;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont__h {
+    font-family: 'Kodchasan-Semibold';
+
+font-weight: 600;
+font-size: 28px;
+line-height: 140%;
+}
+
+.cont__p {
+    font-family: 'Kodchasan-Semibold';
+ margin-top: 20px;
+font-weight: 600;
+font-size: 16px;
+line-height: 160%;
+}
+
+.cont__btn {
+    font-family: 'Kodchasan-Bold';
+    font-weight: 700;
+    font-size: 18px;
+    color:   orange;
+    padding: 10px 30px;
+    background: no-repeat;
+    border: 2px solid orange;
+    margin-top: 20px;
+}
+
+.cont__img1 {
+    padding: 29px 0px;
+}
+
+.cont__img2 {
+    padding: 40px 43px;
+}
+
+.finish {
+      background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    
+}
+
+.finish__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.f__ul {
+    display: flex;
+    column-gap: 30px;
+}
+
+.f__p {
+    font-family: 'Kodchasan-Medium';
+ 
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+}

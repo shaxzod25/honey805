@@ -1,0 +1,15 @@
+
+ @font-face {
+    font-family: 'Kodchasan-Medium';
+    src: url(../fonts/Kodchasan-Medium.ttf) format('truetype');
+ }
+
+ @font-face {
+    font-family: 'Kodchasan-Semibold';
+    src: url(../fonts/Kodchasan-SemiBold.ttf) format('truetype');
+ }
+
+ @font-face {
+    font-family: 'Kodchasan-Bold';
+    src: url(../fonts/Kodchasan-Bold.ttf) format('truetype');
+ }
